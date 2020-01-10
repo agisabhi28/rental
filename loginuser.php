@@ -145,7 +145,7 @@
   	?>
     <div class="main-block">
       <h1>Login Akun</h1>
-      <form action="loginaksi.php" method="post">
+      <form action="loginaksiuser.php" method="post">
         <hr>
         <p> <br/><br/><br/> Login USER | SENORITA RENT CAR </p><br/>
         <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
