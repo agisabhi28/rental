@@ -1,19 +1,9 @@
 <!doctype html>
 <html lang="en">
-<?php
-  if (isset($_GET['pesan'])) {
-    if ($_GET['pesan'] == "berhasil") {
-      echo "<script>alert('Berhasil Daftar')</script>";
-    }elseif ($_GET['pesan'] == "logout") {
-      echo "<script>alert('Anda Berhasil Logout')</script>";
-    }elseif ($_GET['pesan'] == "belum_login") {
-      echo "Anda Harus Login dulu";
-    }
-  }
-?>
+
 <head>
   <meta charset="UTF-8">
-  <title>INSITES 2020</title>
+  <title>SENORITA RENT CAR</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
 
@@ -23,10 +13,10 @@
 <body>
   <header class="header header--bg">
     <div class="container header--wrapper">
-      <h1 class="header__title"><span class="header__title--light">INSITES</span> 2020</h1><hr>
+      <h1 class="header__title"><span class="header__title--light">SENORITA</span> RENT CAR</h1> <a class="button" align="right" href="loginadmin.php">LOG IN ADMIN</a><hr>
       <h2 class="header__paragraph"><span class="header__paragraph--light">Theme<br/><br/></span> HUMANIZED TECHNOLOGY; THE DIGITAL JOURNEY TO WIN COMPETITION</h2>
-      <a class="button" href="akun/register.php">SIGN UP</a>
-      <a class="button" href="login.php">LOG IN</a>
+      <a class="button" href="user/daftaruser.php">SIGN UP for RENT</a>
+      <a class="button" href="loginuser.php">LOG IN</a>
       <h3 class="header__paragraph"> <br/>WARNING !! <br/><br/>This website is only used to fulfill the big task of WEB PROGRAMMING. <strong>Not for register the conference. </strong></h3>
     </div>
   </header>
@@ -34,7 +24,7 @@
   <section class="process">
     <div class="container">
       <div class="page-section text-center">
-        <h2 class="page-section__title">INSITES 2020</h2>
+        <h2 class="page-section__title">SENORITA RENT CAR</h2>
         <p class="page-section__paragraph" > Universitas Komputer Indonesia (UNIKOM) organizes the 3rd International Conference on Informatics, Engineering Science and Technology (INCITEST 2020), which will be held in UNIKOM Campus, Bandung on 2 April 2020.  INCITEST 2020 presents "Humanized Technology, the Digital Journey to Win Competition" as its main theme. In response to the crisis of digital attention where our society has partly been taken off by technology, the high dependence on technology starts to erode individual's mental health, democracy, social relationship, and our children. We are entering the society 5.0 who are expected to be able to address and provide approaches to reduce these negative aspects and at the same time are aiming for a prosperous human-centered society. Therefore, it is crucial to realign technology with the best interests of humanity. In this connection, INCITEST 2020 invites researchers, industries, practitioners, students, lecturers from related fields to contribute their papers and works to be presented at our forthcoming conference. It is hoped that the conference outcome will contribute to answer our global challenge — in which all elements of society are expected to play a leading role, involving the creation of innovation to win competition in digitalized world with more humanized way.</p>
 
       </div>

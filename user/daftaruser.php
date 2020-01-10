@@ -135,10 +135,10 @@
     <div class="main-block">
       <h1>Registration</h1>
       <form action="registeraksi.php" method="post">
-        <label id="icon" for="name"><i class="glyphicon glyphicon-user"></i></label>
+        <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
         <input type="text" name="nama_pelanggan" id="name" placeholder="Nama Lengkap" required/>
 
-        <label id="icon" for="name"><i class="material-icons">computer</i></label>
+        <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
         <input type="text" name="pekerjaan" id="name" placeholder="Pekerjaan" required/>
 
         <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
@@ -147,9 +147,10 @@
         <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
         <input type="text" name="nik" id="name" placeholder="Nomor Induk Kependudukan" required/>
 
-        <label id="icon" for="name"><i class="fas fa-file"></i></label>
-        <input type="file" name="foto_ktp" id="name" placeholder="Upload Foto KTP " required/>
-        Max 1 MB
+        <br>
+        <input type="file" name="foto_ktp" id="name" placeholder="Foto KTP " required/>
+        <br>Upload Foto KTP : Max 1 MB</br>
+
 
         <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
         <input type="text" name="email" id="name" placeholder="Email" required/>
