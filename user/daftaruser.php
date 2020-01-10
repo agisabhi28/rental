@@ -134,7 +134,7 @@
 
     <div class="main-block">
       <h1>Registration</h1>
-      <form action="registeraksi.php" method="post">
+      <form action="daftaruseraksi.php" method="post">
         <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
         <input type="text" name="nama_pelanggan" id="name" placeholder="Nama Lengkap" required/>
 
