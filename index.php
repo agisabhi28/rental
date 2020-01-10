@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <?php
+  if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "daftar") {
+      echo "<script>alert('Berhasil Daftar')</script>";
+    }elseif ($_GET['pesan'] == "logout") {
+      echo "<script>alert('Anda Berhasil Logout')</script>";
+    }
+  }
+   ?>
   <meta charset="UTF-8">
   <title>SENORITA RENT CAR</title>
   <meta name="keywords" content="">
