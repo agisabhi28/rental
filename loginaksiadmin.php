@@ -5,7 +5,7 @@ session_start();
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$query = mysqli_query($koneksi, "SELECT * from pelanggan where email='$username' and password='$password'") or die(mysqli_error());
+$query = mysqli_query($koneksi, "SELECT * from admin where user='$username' and pass='$password'") or die(mysqli_error());
 $cek = mysqli_num_rows($query);
 echo "$username";
 if($cek > 0){
