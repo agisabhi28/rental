@@ -33,6 +33,15 @@
 </head>
 
 <body>
+  <?php
+  if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "login") {
+      echo "<script>alert('Berhasil Login')</script>";
+    }elseif ($_GET['pesan'] == "logout") {
+      echo "<script>alert('Anda Berhasil Logout')</script>";
+    }
+  }
+   ?>
 <!-- WRAPPER START -->
 <div class="container_16" id="wrapper">
 <!-- HIDDEN COLOR CHANGER -->
